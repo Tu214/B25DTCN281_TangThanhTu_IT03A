@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký sinh viên mới</title>
+</head>
+<body>
+    <h1>Đăng ký sinh viên mới</h1>
+    <form action="" method="POST">
+        <table>
+            <tr>
+                <td><label for="full_name">Họ và tên:</label></td>
+                <td><input type="text" name="full_name" id="full_name" value="Nguyễn Văn An" required></td>
+            </tr>
+            <tr>
+                <td><label for="date_of_birth">Ngày sinh dây dù:</label></td>
+                <td><input type="date" name="date_of_birth" id="date_of_birth" value="2005-03-15" required></td>
+            </tr>
+            <tr>
+                <td><label for="enrollment_month">Tháng và năm nhập học:</label></td>
+                <td><input type="month" name="enrollment_month" id="enrollment_month" value="2023-09" required></td>
+            </tr>
+            <tr>
+                <td><label for="study_time">Thời gian học:</label></td>
+                <td><input type="time" name="study_time" id="study_time" value="08:00" required></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">Nam</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Nữ</label>
+                    <input type="radio" name="gender" value="other" id="other" checked>
+                    <label for="other">Khác</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email sinh viên:</label></td>
+                <td><input type="email" name="email" id="email" value="sinhvien@university.edu.vn" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Mật khẩu:</label></td>
+                <td><input type="password" name="password" id="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="goal">Mục tiêu học tập:</label></td>
+                <td><textarea name="goal" id="goal" rows="4" cols="30" placeholder="Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="campus">Cơ số:</label></td>
+                <td>
+                    <select name="campus" id="campus" required>
+                        <option value="hanoi" selected>Hà Nội</option>
+                        <option value="hochiminh">Thành phố Hồ Chí Minh</option>
+                        <option value="danang">Đà Nẵng</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="student_photo">Ảnh thẻ sinh viên:</label></td>
+                <td><input type="file" name="student_photo" id="student_photo" accept="image/*"></td>
+            </tr>
+            <tr>
+                <td><label>Môn học yêu thích:</label></td>
+                <td>
+                    <input type="checkbox" name="subjects" value="math" id="math" checked>
+                    <label for="math">Toán học</label>
+                    <input type="checkbox" name="subjects" value="programming" id="programming" checked>
+                    <label for="programming">Lập trình</label>
+                    <input type="checkbox" name="subjects" value="english" id="english">
+                    <label for="english">Tiếng Anh</label>
+                    <input type="checkbox" name="subjects" value="physics" id="physics">
+                    <label for="physics">Vật lý</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="progress">Tiến độ học tập:</label></td>
+                <td><input type="range" name="progress" id="progress" min="0" max="100" value="50"></td>
+            </tr>
+            <tr>
+                <td><label for="year">Năm học thứ:</label></td>
+                <td><input type="number" name="year" id="year" value="2" min="1" max="4" required></td>
+            </tr>
+            <tr>
+                <td><label for="course_search">Tìm kiếm khóa học:</label></td>
+                <td><input type="text" name="course_search" id="course_search" value="Khoa học máy tính"></td>
+            </tr>
+            <tr>
+                <td><label for="favorite_color">Màu sắc yêu thích:</label></td>
+                <td><input type="color" name="favorite_color" id="favorite_color"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button">Hủy</button>
+                    <button type="reset">Làm mới</button>
+                    <button type="submit">Gửi</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
