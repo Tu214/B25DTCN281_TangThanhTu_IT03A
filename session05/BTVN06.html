@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đội Ngũ Bác Sỹ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 30px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #1e90ff;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        .doctor-card {
+            background-color: #e6f7ff;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .doctor-image {
+            margin-bottom: 20px;
+            transition: background-color 0.3s;
+            padding: 15px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .doctor-image:hover {
+            background-color: #e6f7ff;
+        }
+
+        .doctor-image img {
+            width: 180px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .doctor-name {
+            color: #1e90ff;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .doctor-specialty {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #1e90ff;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .services {
+            background-color: white;
+        }
+
+        .service-item {
+            padding: 15px 0;
+          
+            color: #333;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .service-item:last-child {
+            border-bottom: none;
+        }
+
+        .divider {
+            border-top: 2px solid #ddd;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Đội Ngũ Bác Sỹ</h1>
+
+        <div class="doctor-card">
+            <div class="doctor-image">
+                <img src="https://th.bing.com/th/id/OIP.YcmDc4Pk-j_QEhpuXSUOqwHaLF?w=200&h=200&c=10&o=6&pid=genserp&rm=2" alt="Bác sỹ A">
+            </div>
+            <div class="doctor-name">Bác Sỹ A</div>
+            <div class="doctor-specialty">Chuyên khoa Nha khoa tổng quát</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <h2>Dịch Vụ Nha Khoa</h2>
+        <div class="services">
+            <div class="service-item">Khám và tư vấn răng miệng tổng quát</div>
+            <div class="service-item">Tẩy trắng răng</div>
+            <div class="service-item">Niềng răng thẩm mỹ</div>
+        </div>
+    </div>
+</body>
+</html>
