@@ -1,0 +1,39 @@
+body{
+    font-family: cursive;
+    background-color: #fff7ed;
+}
+h1{
+    background-color: #fde68a;
+    text-align: center;
+}
+
+.menu{
+    background-color: #fed7aa;
+    text-align: center;
+}
+
+.menu a:hover {
+    color:yellow;
+    background-color: #78350f;
+}
+
+.docter{
+    background-color: white;
+}
+
+.item:hover{
+    background-color: #78350f;
+    color: yellow;
+}
+
+.footer{
+    text-align: center;
+    background-color: #78350f;
+}
+
+.confirm{
+    background-color: white;
+}
+.baner{
+    text-align: center;
+}

@@ -1,0 +1,103 @@
+body{
+    background-color: #f0f9ff;
+}
+h1{
+    background-color: antiquewhite;
+    text-align: center;
+    color: rgb(48, 36, 20);
+}
+
+.menu{
+    text-align: center;
+    background-color:#e0f2fe;
+    
+}
+
+.menu a{
+    color: #2097d7;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: #59b6e4;
+    color: #e0f2fe;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 30px auto;
+}
+
+h2{
+    color:rgb(42, 135, 135) ;
+}
+
+.section{
+    background-color: white;
+}
+
+.item:hover{
+    background-color: #59b6e4;
+}
+
+.footer{
+    text-align: center;
+    background-color: bisque;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: beige;
+}
+
+th {
+    background-color: #3e8eb9;
+    color: #c5c5cf;
+}
+
+td {
+    background-color: #dbdee0;
+}
+
+th,td {
+    border: 1px solid #86a0c4;
+    padding: 10px;
+}
+
+tr:hover td {
+    background-color: #abd1eb;
+}
+
+.section form{
+    background-color: #f1f6fc;
+    text-align: center;
+}
+
+.section form label{
+    display: block;
+    color: darkcyan;
+}
+
+.section form input,
+.section form select,
+.section form textarea {
+    display: inline-block;
+}
+.section form input:focus,
+.section form select:focus,
+.section form textarea:focus {
+    background-color: #dfeff0;
+}
+
+
+.section form input[type="submit"] {
+    background-color: #3c9f60;
+    color: white;
+    font-size: 25px;
+    font-weight:lighter;
+}
+.section form input[type="submit"]:hover {
+    background-color: #27efde;
+}
