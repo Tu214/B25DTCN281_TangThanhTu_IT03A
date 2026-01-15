@@ -1,0 +1,66 @@
+.pricing-card {
+    width: 400px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.card-header {
+    background-color: #00fff2;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.badge-hot {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-body p {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin: 0;
+    color: #555;
+}
+
+.highlight {
+    color: #2ecc71;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.card-footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.btn-booking {
+    background-color: #00d4ff;
+    color: black;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 80%;
+}

@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    width: 470px;
+}
+
+.container h2 {
+    color: rgb(236, 161, 107);
+}
+
+.container h3 {
+    color: green;
+    margin-top: 15px;
+    margin-left: 18px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .big-tilte {
+    color: black;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.container .keys {
+    margin-top: 15px;
+    margin-left: 18px;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
